@@ -12,7 +12,11 @@
 
     <artifactId>demo</artifactId>
     <dependencies>
-        <!-- something should be here-->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.12.0</version>
+        </dependency>
 
         <dependency>
             <groupId>org.junit.jupiter</groupId>
